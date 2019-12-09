@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:scrolling_image_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical">
+
+    <com.q42.android.scrollingimageview.ScrollingImageView
+        android:id="@+id/scrolling_foreground3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        scrolling_image_view:speed="2.5dp"
+        scrolling_image_view:src="@drawable/moon" />
+
+    <com.q42.android.scrollingimageview.ScrollingImageView
+        android:id="@+id/scrolling_background3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        scrolling_image_view:speed="1dp"
+        scrolling_image_view:src="@drawable/moon" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="91dp"
+            android:layout_above="@+id/spark_button6"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="55dp"
+            android:layout_marginEnd="54dp"
+            android:layout_marginBottom="373dp"
+            android:fontFamily="@font/almendra"
+            android:text="Session Complete"
+            android:textColor="#FFEB3B"
+            android:textSize="40dp"
+            tools:visibility="visible" />
+
+        <com.varunest.sparkbutton.SparkButton
+            android:id="@+id/spark_button6"
+            tools:visibility="visible"
+            android:layout_width="241dp"
+            android:layout_height="157dp"
+            android:layout_below="@+id/maintitle"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="100dp"
+            android:layout_marginEnd="100dp"
+            android:layout_marginBottom="49dp"
+            scrolling_image_view:layout_constraintBottom_toBottomOf="parent"
+            scrolling_image_view:layout_constraintEnd_toEndOf="parent"
+            scrolling_image_view:layout_constraintHorizontal_bias="1.0"
+            scrolling_image_view:layout_constraintStart_toStartOf="parent"
+            scrolling_image_view:layout_constraintTop_toBottomOf="@+id/folding_cell3"
+            scrolling_image_view:sparkbutton_activeImage="@drawable/ic_star_on"
+            scrolling_image_view:sparkbutton_animationSpeed="1"
+            scrolling_image_view:sparkbutton_iconSize="40dp"
+            scrolling_image_view:sparkbutton_inActiveImage="@drawable/ic_star_off"
+            scrolling_image_view:sparkbutton_primaryColor="@color/splash1"
+            scrolling_image_view:sparkbutton_secondaryColor="@color/splash2" />
+
+    </RelativeLayout>
+
+</FrameLayout>

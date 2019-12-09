@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="activecolor">#FF0000</color>
+    <color name="splash2">#1ED8FF</color>
+    <color name="splash1">#0246F7</color>
+    <color name="bar">#009688</color>
+    <color name="foldingOutside">#514AC3AB</color>
+    <color name="foldingInside">#6D08BDAE</color>
+    <color name="foldingFolds">#323808BD</color>
+</resources>
