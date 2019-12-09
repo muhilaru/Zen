@@ -18,7 +18,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="vertical">
-
+            <!--    https://github.com/Q42/AndroidScrollingImageView-->
             <com.q42.android.scrollingimageview.ScrollingImageView
                 android:id="@+id/scrolling_foreground2"
                 android:layout_width="match_parent"
@@ -57,13 +57,14 @@
             android:id="@+id/cell_content_view3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@drawable/challen"
+            android:background="@color/foldingOutside"
             android:visibility="gone">
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="250dp"
-                android:text=""
+                android:fontFamily="@font/almendra"
+                android:text="‘Before enlightenment – chop wood, carry water.  After enlightenment – chop wood, carry water.’"
                 android:textSize="25dp" />
         </FrameLayout>
         ​
@@ -127,8 +128,9 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="250dp"
-                android:text="“He who experiences the unity of life sees his own Self in all beings, and all beings in his own Self, and looks on everything with an impartial eye.” (Buddha)"
-                android:textSize="25dp" />
+                android:fontFamily="@font/almendra"
+                android:text="The practice of Zen is forgetting the self in the act of uniting with something. When you realize nothing is lacking, the whole world belongs to you. What the superior man seeks is in himself; what the small man seeks is in others. Wise men don’t judge – they seek to understand. "
+                android:textSize="23dp" />
         </FrameLayout>
         ​
 
@@ -144,7 +146,8 @@
                 android:fontFamily="@font/almendra"
                 android:text="       Dependancy"
                 android:textColor="#3A4BB7"
-                android:textSize="50dp" />
+                android:textSize="50dp"
+                tools:fontFamily="@font/almendra" />
         </FrameLayout>
         ​
     </com.ramotion.foldingcell.FoldingCell>
@@ -176,7 +179,10 @@
 
             <TextView
                 android:layout_width="match_parent"
-                android:layout_height="250dp" />
+                android:layout_height="250dp"
+                android:fontFamily="@font/almendra"
+                android:text="And when they played they really played. And when they worked they really worked. Have good trust in yourself … not in the One that you think you should be, but in the One that you are. Have the fearless attitude of a hero and the loving heart of a child. "
+                android:textSize="23dp" />
         </FrameLayout>
         ​
 
@@ -196,7 +202,7 @@
         </FrameLayout>
         ​
     </com.ramotion.foldingcell.FoldingCell>
-
+    <!--        https://github.com/varunest/SparkButton-->
     <com.varunest.sparkbutton.SparkButton
         android:id="@+id/spark_button3"
         android:layout_width="90dp"

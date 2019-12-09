@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical">
-
+    <!--    https://github.com/Q42/AndroidScrollingImageView-->
     <com.q42.android.scrollingimageview.ScrollingImageView
         android:id="@+id/scrolling_foreground2"
         android:layout_width="match_parent"
@@ -66,7 +66,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
-
+            <!--        https://github.com/varunest/SparkButton-->
             <com.varunest.sparkbutton.SparkButton
                 android:id="@+id/spark_button2"
                 android:layout_width="90dp"

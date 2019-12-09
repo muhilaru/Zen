@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
+
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical">
-
+    <!--    https://github.com/Q42/AndroidScrollingImageView-->
     <com.q42.android.scrollingimageview.ScrollingImageView
         android:id="@+id/scrolling_foreground"
         android:layout_width="match_parent"
@@ -23,7 +24,7 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">
-
+        <!--        https://github.com/varunest/SparkButton-->
         <com.varunest.sparkbutton.SparkButton
             android:id="@+id/spark_button4"
             android:layout_width="241dp"

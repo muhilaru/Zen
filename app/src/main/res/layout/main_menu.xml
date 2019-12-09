@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical">
-
+    <!--    https://github.com/Q42/AndroidScrollingImageView-->
     <com.q42.android.scrollingimageview.ScrollingImageView
         android:id="@+id/scrolling_foreground"
         android:layout_width="match_parent"
@@ -34,7 +34,7 @@
             android:text="Zen"
             android:textColor="#00FFC4"
             android:textSize="100dp" />
-
+        <!--        https://github.com/varunest/SparkButton-->
         <com.varunest.sparkbutton.SparkButton
             android:id="@+id/spark_button"
             android:layout_width="200dp"
